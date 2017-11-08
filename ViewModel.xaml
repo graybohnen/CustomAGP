@@ -1,0 +1,18 @@
+<Grid>
+	<Border BorderBrush="Black" BorderThickness="3" Margin="10">
+		<StackPanel VerticalAlignment="Center">
+			<TextBlock Text="{Binding AppName}"
+				Foreground="Black" FontSize="40"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center"/>
+			<TextBlock Text="{Binding Author}"
+				Foreground="Black" FontSize="30"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center"/>
+			<TextBlock Text="{Binding AssemblyVersion}"
+				Foreground="Black" FontSize="20"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center"/>
+		</StackPanel>
+	</Border>
+</Grid>
